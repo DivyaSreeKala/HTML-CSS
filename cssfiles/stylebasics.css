@@ -1,0 +1,122 @@
+body{
+    background-image: url('../images/img4.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#heading_1{
+    width: 30px;
+}
+
+#p1{
+    color: red;
+    background-color: white;
+}
+#p2{
+    color: green;
+    background-color: aliceblue;
+}
+#p3{
+    color: violet;
+    background-color: bisque;
+}
+
+.group_1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px dashed white;
+}
+
+#ul-type{
+    list-style-type:circle;
+}
+
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin :5% 32% 20% 20%;
+}
+
+table thead{
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+}
+table thead th{
+    border-left: 1px solid white;
+}
+table tbody tr{
+    /* background-color: palegoldenrod; */
+    border-bottom: 1px solid white;
+   
+}
+table tbody td{
+    border-left: 1px solid white;
+    padding: 30px 25px 1px 10px;
+}
+
+.image_text{
+    background-color:antiquewhite;
+    position: relative;
+    border: 2px solid red;
+    
+}
+
+.image_text p{
+    position: absolute;
+    color: red;
+    top: 2px;
+    left: 5px;
+    /* top: 20px; */
+}
+
+
+.parent{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around ;/*no effect on flex-direction:column*/
+    /* center ,flex-start,flex-end,space-around, */
+    /* align-items: center; */
+    /* center ,flex-start,flex-end */
+    align-content: center;
+}
+.child{
+    border: 2px solid rgb(167, 211, 174);
+    /* width:11%; */
+
+}
+
+header{
+    background-color: #ffffff;
+    height: 50px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*?????flex-direction:row  working when justify-content: center;*/
+    justify-content: flex-end;
+    column-gap: 18px;
+    padding-top: 16px;
+}
+
+@media screen and (max-width:460px) {/*anything below this*/
+    header nav{
+        flex-direction: column;
+    }
+}
+/* .head1{
+    border: 2px solid red;
+    border-left-color: red;
+    background-color: palegoldenrod;
+
+} */
+/* table{
+    border: 1px solid white;
+    
+} */
+

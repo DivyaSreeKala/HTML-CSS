@@ -1,0 +1,55 @@
+body {
+  background-image: url("../images/img4.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#heading_1 {
+  width: 30px;
+}
+
+#p1 {
+  color: red;
+  background-color: white;
+}
+
+#p2 {
+  color: green;
+  background-color: aliceblue;
+}
+
+#p3 {
+  color: violet;
+  background-color: bisque;
+}
+
+.group_1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  border: 2px dashed white;
+}
+
+#ul-type {
+  list-style-type: circle;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  margin: 5% 32% 20% 20%;
+}
+
+table thead {
+  /* background-color: red; */
+  border-bottom: 1px solid white;
+}
+table thead th {
+  border-left: 1px solid white;
+}
+table tbody tr {
+  /* background-color: palegoldenrod; */
+  border-bottom: 1px solid white;
+}
+table tbody td {
+  border-left: 1px solid white;
+  padding: 30px 25px 1px 10px;
+}/*# sourceMappingURL=stylesass.css.map */

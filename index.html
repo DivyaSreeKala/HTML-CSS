@@ -1,34 +1,143 @@
-<!-- New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylebasics.css">
+    <title>FSD</title>
+    <!-- <link rel="stylesheet" href="./cssfiles/stylebasics.css">
+    <link rel="stylesheet" href="style.css"> -->
+
+    <link rel="stylesheet" href="./cssfiles/stylesass.css">
+    <style>
+        a{
+            color: brown;
+            text-decoration: none;
+        }
+        ol{
+            background-color: aliceblue;
+        }
+        
+</style>
 </head>
 <body>
-    <div class="content">
-        <div class="header_section">
-            <div class="header_data">
-    <h1>Divya Sree Kala</h1>
-    <h4>Kochuvila, Kadakkavoor, Trivandrum</h4>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About Me</a>
+            <a href="">Projects</a>
+        </nav>
+    </header>
+    <div class="group_1">
+    <!-- Heading Tags -->
+     <h1 id="heading_1">This is heading1</h1>
+     <h2>This is heading2</h2>
+     <h3>This is heading3</h3>
+     <h4>This is heading4</h4>
+     <h5>This is heading5</h5>
+     <h6>This is heading6</h6>
+     
+     <!-- Paragraph tags -->
+      <p id="p1">Lorem ipsum dolor sit amet, <b>consectetur</b> adipiscing elit, sed do eiusmod tempor incididunt ut labore et <i>dolore</i> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <u>reprehenderit</u> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p id="p2"><b>Hypertext Markup Language (HTML)</b> is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+      
+      <p id="p3">This is paragraph 3</p>
+
+
+
+
+    <!-- Lists -->
+       <!-- 1. Unordered list -->
+        <ul>
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Grape</li>
+        </ul>
+            <!-- change type  -->
+        <ul id="ul-type" >
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Grape</li>
+        </ul>
+        
     </div>
-    <img src="./photo.jpg"   width="100px" alt="photo">
-    </div>
-    <div class="details">
-    <h4>About Me</h4>
-    <p> I am Divya Sree Kala. I am a 2024 passout looking for opportunities to apply my academic knowledge <br> and 
-        skills in a dynamic work environment. Eager to contribute to a team and learn from 
-        experienced <br> professionals.</p>
-    <h4>Educational Qualifications</h4>
-    <h5>B. Tech in Computer Science and Engineering</h5>
-    <ul>
-        <li><p>College of Engineering Attigal</p></li>
-        <li><p>2021-2024</p></li>
-    </ul>
-    <a href="https://www.linkedin.com/in/divya-sree-kala/">My LinkedIn Profile</a>
-</div>
-    </div>
-</body>
+        <!-- 2.Ordered list -->
+         <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+         </ol>
+             <!-- change type -->
+         <ol type="I">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+         </ol>
+
+    <!-- Insert Image -->
+     <!-- <img src="https://wallup.net/wp-content/uploads/2016/01/258626-nature-landscape-lake-reflection-mountain-clouds-forest-Italy-water-summer-trees-calm.jpg" alt="nature"> -->
+     <!-- alt: alternative -->
+
+      <!-- <img src="./images/img2.jpg" alt="image1"> -->
+
+      <!-- Anchor tags -->
+       <!-- <a href="https://www.google.com" target="_blank">Click Here</a> <!-- href-hyperlink reference -->
+      <div class="parent">
+        <!-- .child*8 -->
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child" style="flex-shrink: shrink;">8</div>
+        
+        
+      </div>
+       <!-- Input tags -->
+         <!-- <br> -->
+         <!-- Web Elements -all those elements used with input tag is called web elements -->
+         <!-- <label for="name">Username</label>
+         <input type="text" placeholder="Username" name="name" id="name"><br> <!-- input field takes everything as a string .even number -->
+         <!-- <label for="email">Email</label>
+         <input type="email" placeholder="Email" name="email" id="email"><br>
+         <label for="password">Password</label>
+         <input type="password" placeholder="Password" name="password" id="password"><br>
+       DOB:<input type="date" name="dob" id=""> -->
+
+         <!-- style="border: 2px solid white;" -->
+       <table  >
+        <thead >
+            <th>ID</th>
+            <th>Name</th>
+            <th>Location</th>
+        </thead>
+        <tbody >
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody> 
+       </table> 
+       
+       <!-- <div class="image_text">
+        <img src="./images/img2.jpg" width="300px" alt="nature">
+        <p>hello world</p>
+      </div> -->
+    </body>
 </html>

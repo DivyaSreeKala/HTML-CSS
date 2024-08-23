@@ -1,0 +1,74 @@
+$body-color: white;
+$bg-img:url('../images/img4.jpg');
+$body-font:'Times New Roman', Times, serif;
+$font2:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+$color1:red;
+$color2:green;
+$color3:violet;
+
+body{
+    background-image: $bg-img;
+    background-size: cover;
+    color: $body-color;
+}
+
+
+#heading_1{
+    width: 30px;
+}
+
+#p1{
+    color: $color1;
+    background-color: white;
+}
+#p2{
+    color: $color2;
+    background-color: aliceblue;
+}
+#p3{
+    color: $color3;
+    background-color: bisque;
+}
+
+.group_1{
+    font-family: $font2;
+    border: 2px dashed $body-color;
+}
+
+#ul-type{
+    list-style-type:circle;
+}
+
+
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin :5% 32% 20% 20%;
+}
+
+table
+{
+     thead{
+    /* background-color: red; */
+    border-bottom: 1px solid $body-color;
+    th{
+        border-left: 1px solid $body-color;
+    }
+    }
+    
+    tbody{
+        tr{
+            /* background-color: palegoldenrod; */
+            border-bottom: 1px solid $body-color;
+           
+        }
+        td{
+            border-left: 1px solid $body-color;
+            padding: 30px 25px 1px 10px;
+        }
+        
+    }
+}
+
+
