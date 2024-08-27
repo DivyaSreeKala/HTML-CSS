@@ -1,0 +1,36 @@
+
+body{
+    background: url(/images/ic-bg-img.jpg);
+}
+.nav-item{
+    border: 1px solid white;
+    padding: 1px;
+    margin-left: 4px;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black !important;
+}
+
+.custom-margin{
+    margin-top: 10%;
+}
+
+.custom-btn{
+    width: 100%;
+}
+
+.custom-box{
+    background-color: rgb(191, 211, 226);
+    border: 2px solid red;
+    padding: 16px;
+    border-radius: 4px;
+}
+.custom-margin-a{
+    margin-left: 22%;
+    
+}
