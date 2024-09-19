@@ -1,0 +1,35 @@
+
+.outer-body{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    /* background: (45deg, rgb(7, 7, 173), rgb(76, 82, 175)); */
+    
+    }
+.card{
+    background-color: rgb(199, 138, 138);
+    color: white;
+}
+.row{
+    /* display: flex;
+    align-items: center; */
+    margin: 30px;
+    
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+form{
+    width: 50%;
+    padding: 16px;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 20px;
+    background-color: rgb(226, 195, 195);
+}
+
+
