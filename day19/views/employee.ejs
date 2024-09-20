@@ -11,17 +11,17 @@
 </head>
 <body class="outer-body">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Employee Details</a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="navbar-brand text-light" href="#">Employee Details</a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <%for(let i=0;i<nav.length;i++){%>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="<%=nav[i].link%>"><%=nav[i].name%></a>
+                <a class="nav-link active text-light" aria-current="page" href="<%=nav[i].link%>"><%=nav[i].name%></a>
               </li>
               <%}%>
               
